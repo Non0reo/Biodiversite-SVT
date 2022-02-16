@@ -3,6 +3,7 @@ body{
     height: 100%;
     margin: 0;
     overflow: hidden;
+    font-size: small;
 }
 
 div#headerTitle{
@@ -117,7 +118,6 @@ div#centerDiv{
 
 div#displayZone{
     font-family: 'Open Sans', sans-serif;
-    font-size: medium;
     color: white;
     max-width: 65%;
 }
