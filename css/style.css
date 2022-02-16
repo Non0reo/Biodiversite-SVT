@@ -107,7 +107,7 @@ div#rightDiv{
 div#centerDiv{
     float: left;
     width: 100%;
-    text-align: center;
+    text-align: left;
     vertical-align: center;
     display:flex;
     justify-content:center;
@@ -117,5 +117,17 @@ div#centerDiv{
 
 div#displayZone{
     font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
     color: white;
+    max-width: 65%;
+}
+
+td, th{
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+table{
+    border: 5px solid #fff;
+    margin: 60px 70px;
 }
