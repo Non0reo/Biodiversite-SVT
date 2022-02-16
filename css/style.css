@@ -68,7 +68,7 @@ div#headerTitle{
 #textTitle{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: 150%; 
+    font-size: 170%; 
     text-shadow: 0 5px 20px rgb(48, 48, 48);
     transition: 2s;
 }
