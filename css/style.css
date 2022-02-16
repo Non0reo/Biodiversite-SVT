@@ -1,0 +1,110 @@
+body{
+    background-color: #303030;
+    height: 100%;
+    margin: 0;
+
+}
+
+div#headerTitle{
+    background-color: #494949;
+    flex: 0 1 auto;
+    box-shadow: 0 10px 20px 5px rgb(37, 37, 37);
+    display: flex;
+    vertical-align: middle;
+    transition: 2s;
+    width: 100%;
+    position: fixed;
+}
+
+#imageTitle{
+    width: 85px;
+    height: 85px;
+    padding: 15px 20px;
+    transition: 2s;
+    text-shadow: 0 10px 20px 5px rgb(37, 37, 37);
+}
+
+/*
+.imageAnim1{
+    animation: imagePop1 2s;
+}
+
+.imageAnim2{
+    animation: imagePop2 2s;
+}
+
+.imageAnim3{
+    animation: imagePop3 2s;
+}
+
+.imageAnimReset{
+    animation: imagePopReset 2s;
+}
+
+@keyframes imagePop1 {
+    0%   {transform: translate(0%);}
+    50% {transform: translate(-100%); content: url("/css/img/title/one.png");}
+    100%   {transform: translate(0%);}
+}
+
+@keyframes imagePop2 {
+    0%   {transform: translate(0%);}
+    50% {transform: translate(-100%); content: url("/css/img/title/two.png");}
+    100%   {transform: translate(0%);}
+}
+
+@keyframes imagePop3 {
+    0%   {transform: translate(0%);}
+    50% {transform: translate(-100%); content: url("/css/img/title/three.png");}
+    100%   {transform: translate(0%);}
+}
+
+@keyframes imagePopReset {
+    0%   {transform: translate(0%);}
+    100% {transform: translate(-100%); content: none;}
+}
+*/
+
+#textTitle{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: xx-large;    
+    transition: 2s;
+}
+
+
+div#window{
+    height: 100%;
+    display: flex;
+}
+
+.imageNav{
+    width: 85px;
+    height: 85px;
+    vertical-align: middle;
+    transition: 1s;
+}
+
+.imageNavBox{
+    display: inline-block;
+    height: 100vh;
+    vertical-align: middle;
+} 
+
+div.innerWindow{
+    height: 100vh;
+}
+
+div#leftDiv{
+    float: left;
+}
+
+div#rightDiv{
+    float: right;
+}
+
+div#centerDiv{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
