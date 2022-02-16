@@ -20,7 +20,7 @@ div#headerTitle{
     height: 75px;
     padding: 15px 20px;
     transition: 2s;
-    text-shadow: 0 10px 20px 5px rgb(37, 37, 37);
+    filter: drop-shadow(0 5px 10px rgb(48, 48, 48));
 }
 
 /*
@@ -67,7 +67,8 @@ div#headerTitle{
 #textTitle{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: xx-large;    
+    font-size: xx-large; 
+    text-shadow: 0 5px 20px rgb(48, 48, 48);
     transition: 2s;
 }
 
@@ -106,4 +107,14 @@ div#centerDiv{
     float: left;
     width: 100%;
     text-align: center;
+    vertical-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-image: url(/css/img/leaf.png); */
+}
+
+div#displayZone{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }

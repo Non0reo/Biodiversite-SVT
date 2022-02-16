@@ -11,6 +11,8 @@ let removeLetters = false;
 //Page Init
 UpdateSlide(pageState)
 UpdateTitle(pageState)
+/*headerIcon.style = "translate: -100%;";
+headerText.style = "translate: -10%;";*/
 
 
 
@@ -44,7 +46,7 @@ function UpdateTitle(pageState){
             headerIcon.src = 'css/img/title/one.png';
             headerIcon.style = "transform:translate(0%);";
             headerText.style = "transform: translate(0%);";
-            headerText.innerHTML = "La Biodiversité génétique";
+            headerText.innerHTML = "La biodiversité génétique";
             color("#69be57");
 
             leftArrow.style = "transform:translate(0%);";
@@ -64,7 +66,7 @@ function UpdateTitle(pageState){
             headerIcon.src = 'css/img/title/three.png';
             headerIcon.style = "transform:translate(0%);";
             headerText.style = "transform: translate(0%);";
-            headerText.innerHTML = "L'évolution de ta biodivertié et l'influence de l'homme";
+            headerText.innerHTML = "L'évolution de la biodiversité et l'influence de l'Homme";
             color("#d3d35f");
     
             leftArrow.style = "transform:translate(0%);";
