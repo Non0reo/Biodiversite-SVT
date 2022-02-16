@@ -130,5 +130,6 @@ td, th{
 
 table{
     border: 5px solid #fff;
-    margin: 60px 70px;
+    margin: 40px 0px;
+    transform: translate(50%);
 }
