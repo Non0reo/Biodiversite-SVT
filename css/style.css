@@ -19,7 +19,7 @@ div#headerTitle{
 #imageTitle{
     width: 75px;
     height: 75px;
-    padding: 15px 20px;
+    padding: 10px 20px;
     transition: 2s;
     filter: drop-shadow(0 5px 10px rgb(48, 48, 48));
 }
@@ -68,7 +68,7 @@ div#headerTitle{
 #textTitle{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: xx-large; 
+    font-size: 150%; 
     text-shadow: 0 5px 20px rgb(48, 48, 48);
     transition: 2s;
 }
