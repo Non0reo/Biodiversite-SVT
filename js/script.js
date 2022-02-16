@@ -1,8 +1,11 @@
-let headerIcon = document.getElementById("imageTitle");
-let headerText = document.getElementById("textTitle");
-let header = document.getElementById("headerTitle");
-let leftArrow = document.getElementById("leftArrow");
-let rightArrow = document.getElementById("rightArrow");
+const headerIcon = document.getElementById("imageTitle");
+const headerText = document.getElementById("textTitle");
+const header = document.getElementById("headerTitle");
+const leftArrow = document.getElementById("leftArrow");
+const rightArrow = document.getElementById("rightArrow");
+const displayZone = document.getElementById("displayZone");
+
+const mainTextSlide = document.getElementsByClassName("mainText");
 
 let pageState = 0;
 let pageTitle = "La Biodiversité en Perpetuelle Evolution"
@@ -11,19 +14,19 @@ let removeLetters = false;
 //Page Init
 UpdateSlide(pageState)
 UpdateTitle(pageState)
-/*headerIcon.style = "translate: -100%;";
-headerText.style = "translate: -10%;";*/
 
 
 
 function nextSlide(){
     pageState += 1;
     UpdateTitle(pageState)
+    UpdateSlide(pageState)
 }
 
 function previousSlide(){
     if(pageState != 0) pageState -= 1;
     UpdateTitle(pageState)
+    UpdateSlide(pageState)
 }
 
 
@@ -54,12 +57,9 @@ function UpdateTitle(pageState){
 
         case 2:
             headerIcon.src = 'css/img/title/two.png';
-            headerIcon.style = "transform:translate(0%);";
-            headerText.style = "transform: translate(0%);";
             headerText.innerHTML = "La biodiversité des espèces et des écosystèmes";
             color("#5374ce");
 
-            leftArrow.style = "transform:translate(0%);";
             break;
 
         case 3:
@@ -69,13 +69,33 @@ function UpdateTitle(pageState){
             headerText.innerHTML = "L'évolution de la biodiversité et l'influence de l'Homme";
             color("#d3d35f");
     
-            leftArrow.style = "transform:translate(0%);";
+            rightArrow.style = "transform:translate(0%);";
+            break;
+
+        case 4:
+            headerIcon.style = "transform:translate(-100%);";
+            headerText.style = "transform: translate(-10%);";
+            headerText.innerHTML = "Fin";
+            color("#494949");
+
+            rightArrow.style = "transform:translate(100%);"
             break;
     }
 }
 
 function UpdateSlide(pageState){
-    
+    for (let i = 0; i < mainTextSlide.length; i++) {
+
+        switch(pageState){
+            case 0:
+                mainTextSlide[i].innerHTML = "Hellow World"; 
+                break;
+
+            case 1:
+                mainTextSlide[i].innerHTML = "Salut tout le monde"; 
+                break;
+        }
+    }
 }
 
 
