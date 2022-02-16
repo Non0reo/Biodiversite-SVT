@@ -2,7 +2,6 @@ body{
     background-color: #303030;
     height: 100%;
     margin: 0;
-
 }
 
 div#headerTitle{
@@ -17,8 +16,8 @@ div#headerTitle{
 }
 
 #imageTitle{
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     padding: 15px 20px;
     transition: 2s;
     text-shadow: 0 10px 20px 5px rgb(37, 37, 37);
