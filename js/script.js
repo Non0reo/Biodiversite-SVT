@@ -15,7 +15,7 @@ let removeLetters = false;
 UpdateSlide(pageState)
 UpdateTitle(pageState)
 
-let images = [];
+/* let images = [];
 function preload() {
     for (var i = 0; i < arguments.length; i++) {
         images[i] = new Image();
@@ -24,9 +24,9 @@ function preload() {
 }
 
 preload(
-    "/css/img/context/deforestation.jpg",
-    "/css/img/context/dinosaur.jpg"
-)
+    "css/img/context/deforestation.jpg",
+    "css/img/context/dinosaur.jpg"
+) */
 
 
 
@@ -135,11 +135,11 @@ function UpdateSlide(pageState){
                 break;
             
             case 5:
-                displayZone.innerHTML = "<div style=\"display: flex;\"><p style=\"text-align: justify;line-height: 160%;\">   L’Homme influence la biodiversité de diverses façons. Tout d’abord avec la déforestation, qui entraîne la destruction des habitats naturels menaçant 80% de la biodiversité terrestre pour les espèces de la faune et de la flore qui abritent les forêts. La biodiversité est aussi influencée par la chasse intensive, elle peut être terrestre (chasse) ou maritime (pêche), et engendre des perturbations des écosystèmes et du sur-pâturage. A contrario, l’Homme peut aussi influencer positivement les autres espèces dans leur sauvegarde ou dans leur évolution. On retrouve donc la création de réserves naturelles qui sont un des outils de protection des milieux naturels et des espèces.</p><img src=\"/css/img/context/deforestation.jpg\" class=\"context\" alt=\"Deforestation\" style=\"width: 40%;height: 40%;padding: 25px;border-radius: 40px;top: 50%;\"></div>";
+                displayZone.innerHTML = "<div style=\"display: flex;\"><p style=\"text-align: justify;line-height: 160%;\">   L’Homme influence la biodiversité de diverses façons. Tout d’abord avec la déforestation, qui entraîne la destruction des habitats naturels menaçant 80% de la biodiversité terrestre pour les espèces de la faune et de la flore qui abritent les forêts. La biodiversité est aussi influencée par la chasse intensive, elle peut être terrestre (chasse) ou maritime (pêche), et engendre des perturbations des écosystèmes et du sur-pâturage. A contrario, l’Homme peut aussi influencer positivement les autres espèces dans leur sauvegarde ou dans leur évolution. On retrouve donc la création de réserves naturelles qui sont un des outils de protection des milieux naturels et des espèces.</p><img src=\"css/img/context/deforestation.jpg\" class=\"context\" alt=\"Deforestation\" style=\"width: 40%;height: 40%;padding: 25px;border-radius: 40px;top: 50%;\"></div>";
                 break;
 
             case 6:
-                displayZone.innerHTML = "<div style=\"text-align: justify;\"><img src=\"/css/img/context/dinosaur.jpg\" alt=\"dinosaur\" style=\"width: 50%;height: 50%;display: block;margin-left: auto;margin-right: auto;border-radius: 40px;padding-bottom: 20px;\"><p>  La biodiversité varie ou disparait aussi naturellement au cours des temps géologiques. Nous pouvons alors faire référence à un groupe entier d’espèces disparues, les dinosaures. Il y a 65 millions d’années, un gigantesque astéroïde a frappé la Terre, entraînant l’extinction des dinosaures. Cet évènement a brutalement mis fin à cette espèce, même s’il a été démontré que celle-ci commençait déjà à disparaître il y a 76 millions d’années.</p></div>";
+                displayZone.innerHTML = "<div style=\"text-align: justify;\"><img src=\"css/img/context/dinosaur.jpg\" alt=\"dinosaur\" style=\"width: 50%;height: 50%;display: block;margin-left: auto;margin-right: auto;border-radius: 40px;padding-bottom: 20px;\"><p>  La biodiversité varie ou disparait aussi naturellement au cours des temps géologiques. Nous pouvons alors faire référence à un groupe entier d’espèces disparues, les dinosaures. Il y a 65 millions d’années, un gigantesque astéroïde a frappé la Terre, entraînant l’extinction des dinosaures. Cet évènement a brutalement mis fin à cette espèce, même s’il a été démontré que celle-ci commençait déjà à disparaître il y a 76 millions d’années.</p></div>";
                 break;
 
             case 7:
