@@ -2,8 +2,7 @@ body{
     background-color: #303030;
     height: 100%;
     margin: 0;
-    overflow: hidden;
-    font-size: 100%;
+    font-size: 130%;
 }
 
 div#headerTitle{
@@ -12,66 +11,30 @@ div#headerTitle{
     box-shadow: 0 10px 20px 5px rgb(37, 37, 37);
     display: flex;
     vertical-align: middle;
-    transition: 2s;
+    transition: 1.5s;
     width: 100%;
     position: fixed;
+}
+
+a{
+    color: inherit;
 }
 
 #imageTitle{
     width: 75px;
     height: 75px;
     padding: 10px 20px;
-    transition: 2s;
+    transition: 1.5s;
     filter: drop-shadow(0 5px 10px rgb(48, 48, 48));
 }
 
-/*
-.imageAnim1{
-    animation: imagePop1 2s;
-}
-
-.imageAnim2{
-    animation: imagePop2 2s;
-}
-
-.imageAnim3{
-    animation: imagePop3 2s;
-}
-
-.imageAnimReset{
-    animation: imagePopReset 2s;
-}
-
-@keyframes imagePop1 {
-    0%   {transform: translate(0%);}
-    50% {transform: translate(-100%); content: url("/css/img/title/one.png");}
-    100%   {transform: translate(0%);}
-}
-
-@keyframes imagePop2 {
-    0%   {transform: translate(0%);}
-    50% {transform: translate(-100%); content: url("/css/img/title/two.png");}
-    100%   {transform: translate(0%);}
-}
-
-@keyframes imagePop3 {
-    0%   {transform: translate(0%);}
-    50% {transform: translate(-100%); content: url("/css/img/title/three.png");}
-    100%   {transform: translate(0%);}
-}
-
-@keyframes imagePopReset {
-    0%   {transform: translate(0%);}
-    100% {transform: translate(-100%); content: none;}
-}
-*/
 
 #textTitle{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: 170%; 
+    font-size: 140%; 
     text-shadow: 0 5px 20px rgb(48, 48, 48);
-    transition: 2s;
+    transition: 1.5s;
 }
 
 
@@ -113,11 +76,10 @@ div#centerDiv{
     display:flex;
     justify-content:center;
     align-items:center;
-    /* background-image: url(/css/img/leaf.png); */
 }
 
 div#displayZone{
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Segoe UI', sans-serif;
     color: white;
     max-width: 65%;
     margin-top: 100px;
@@ -128,8 +90,54 @@ td, th{
     border: 1px solid #fff;
 }
 
+th{
+    font-family:'Open Sans', sans-serif;
+}
+
+
 table{
     border: 5px solid #fff;
     margin: 40px 0px;
+}
+
+div#divTable, .mainTextCenter{
+    text-align: center;
+}
+
+.discoverWorld#sea:hover{
+    color:teal;
+    cursor: pointer;
+}
+
+.discoverWorld#forest:hover{
+    color:chartreuse;
+    cursor: pointer;
+}
+
+
+#life-seaBox, #life-forestBox{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.life-seaPictures, .life-forestPictures{
+    width: 25%;
+    height: 25%;
+    border-radius: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 20px 5px rgb(24, 25, 29);
+}
+
+.life-seaText, .life-forestText{
+    font-family:'Open Sans', sans-serif;
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.live-infoText{
+    color: #fff;
+    padding-bottom: 5%;
+    max-width: 50%;
     transform: translate(50%);
+    text-shadow: 0 5px 10px rgb(48, 48, 48);
 }
