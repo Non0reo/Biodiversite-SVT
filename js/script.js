@@ -94,6 +94,7 @@ function UpdateTitle(pageState){
             headerText.style = "transform: translate(0%);";
             headerText.innerHTML = "L'évolution de la biodiversité et l'influence de l'Homme";
             document.title = "L'évolution de la biodiversité et l'influence de l'Homme";
+            document.body.style.overflow = "visible";
             color("#d3d35f");
     
             rightArrow.style = "transform:translate(0%);";
@@ -104,6 +105,7 @@ function UpdateTitle(pageState){
             headerText.style = "transform: translate(-10%);";
             headerText.innerHTML = "Fin • La Biodiversité en Perpetuelle Evolution";
             document.title = "Fin";
+            document.body.style.overflow = "hidden";
             color("#494949");
 
             rightArrow.style = "transform:translate(100%);"
@@ -115,11 +117,11 @@ function UpdateSlide(pageState){
 
         switch(pageState){
             case 0:
-                displayZone.innerHTML = "<p class=\"mainTextTitle\" style=\"font-size: 400%;text-align: center;font-family:'Open Sans', sans-serif;\">Bienvenue</h1><p class=\"mainTextTitle\" style=\"font-size: 200%;text-align: center;font-family:'Segoe UI', sans-serif;\"> sur le chapitre n°3 de Camille et Nolhan</p><p class=\"mainTextTitle\" style=\"font-size: 100%;text-align: center;font-family:'Segoe UI', sans-serif;color: rgb(148, 148, 148);\">Nous vous recomendons d'utiliser Google Chorme et de cliquer sur la flèche de droite pour démarer</p>";
+                displayZone.innerHTML = "<p class=\"mainTextTitle\" style=\"font-size: 400%;text-align: center;font-family:'Open Sans', sans-serif;\">Bienvenue</h1><p class=\"mainTextTitle\" style=\"font-size: 200%;text-align: center;font-family:'Segoe UI', sans-serif;\"> sur le chapitre n°3 de Camille et Nolhan</p><p class=\"mainTextTitle\" style=\"font-size: 100%;text-align: center;font-family:'Segoe UI', sans-serif;color: rgb(148, 148, 148);\">Nous vous recommendons d'utiliser Google Chrome sur votre ordinateur et de cliquer sur la flèche de droite pour démarrer (n'hésitez pas à changer la taille d'affichage du navigateur avec les racoucis Ctrl+- ou Ctrl++ si la page ne s'affiche pas bien)</p>";
                 break;
 
             case 1:
-                displayZone.innerHTML = "<p class=\"mainText\">   La nature apporte depuis des milliards d\'années tout un panel d\’espèces différentes ayant chacune leur propre particularités physiques. Chaque espèce évolue chacun de son côté, normalement indépendamment des autres. Mais le développement d’une espèce est beaucoup plus complexe que ça car il dépend aussi des autres espèces et du milieu.<br><br>   Dans ce petit exposé numérique, nous verrons comment une espèce persiste dans le temps et les particularités qu\'elle reçoit en fonction du milieu dans lequel elle évolue et en fonction des gènes qu’ils lui sont transmis ; dans quel espace et milieu les animaux évoluent ; et nous verrons comment la survie d’une espèce dépend de celle des autres ou de son environement.</p>"; 
+                displayZone.innerHTML = "<p class=\"mainText\">   La nature apporte depuis des milliards d\'années tout un panel d\’espèces différentes ayant chacune leur propre particularités physiques. Chaque espèce évolue chacune de son côté, normalement indépendamment des autres. Mais le développement d’une espèce est beaucoup plus complexe que ça car il dépend aussi des autres espèces et du milieu.<br><br>   Dans ce petit exposé numérique, nous verrons comment une espèce persiste dans le temps et les particularités qu\'elle reçoit en fonction du milieu dans lequel elle évolue et en fonction des gènes qu’ils lui sont transmis ; dans quel espace et milieu les animaux évoluent ; et nous verrons comment la survie d’une espèce dépend de celle des autres ou de son environement.</p>"; 
                 break;
             
             case 2:

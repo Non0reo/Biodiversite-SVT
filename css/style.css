@@ -5,6 +5,10 @@ body{
     font-size: 130%;
 }
 
+@media (max-width: 1300px){
+    div#headerTitle{display: none;}
+}
+
 div#headerTitle{
     background-color: #494949;
     flex: 0 1 auto;
@@ -13,7 +17,7 @@ div#headerTitle{
     vertical-align: middle;
     transition: 1.5s;
     width: 100%;
-    position: fixed;
+    /* position: relative; */
 }
 
 a{
@@ -57,7 +61,7 @@ div#window{
 } 
 
 div.innerWindow{
-    height: 100vh;
+    height: 80vh;
 }
 
 div#leftDiv{
@@ -82,7 +86,7 @@ div#displayZone{
     font-family:'Segoe UI', sans-serif;
     color: white;
     max-width: 65%;
-    margin-top: 100px;
+    max-height: 80%;
 }
 
 td, th{
